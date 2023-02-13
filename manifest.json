@@ -55,16 +55,16 @@
           "controlAggregation": "pages"
           },
           "routes": [
-          {
-            "pattern": "",
-            "name": "overview",
-            "target": "overview"
-          },
-          {
-            "pattern": "detail",
-            "name": "detail",
-            "target": "detail"
-          }
+            {
+              "pattern": "",
+              "name": "overview",
+              "target": "overview"
+            },
+            {
+              "pattern": "detail/{invoicePath}",
+              "name": "detail",
+              "target": "detail"
+            }
           ],
           "targets": {
           "overview": {
